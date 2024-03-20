@@ -1,4 +1,3 @@
-rm(list=ls())
 library(tidyverse)
 library(ggrepel)
 library(ggplot2)
@@ -57,7 +56,6 @@ world_map <- world %>%
       TRUE ~ '#DEE1E4'  
     )
   )
-
 
 
 p_world_map <- ggplot(data=world_map) +
